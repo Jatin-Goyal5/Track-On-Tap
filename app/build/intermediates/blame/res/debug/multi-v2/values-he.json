@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\win10\\AndroidStudioProjects\\TransportServise\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-0.41.0.aar\\6e9e3ae28b62e294fac7b401b1db9965\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,69",
+                        "endOffsets": "104,158,228"
+                    },
+                    "to": {
+                        "startLines": "2,6,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,310,2283",
+                        "endColumns": "53,53,69",
+                        "endOffsets": "104,359,2348"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-sdk-8.2.1.aar\\e0f609863751589d3096421a0cc68ba6\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,331,407,480,553,638,725,841,944,1094,1208,1345",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "172,326,402,475,548,633,720,836,939,1089,1203,1340,1409"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "881,1003,1157,1233,1306,1379,1464,1551,1667,1770,1920,2034,2171",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "998,1152,1228,1301,1374,1459,1546,1662,1765,1915,2029,2166,2235"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-1\\files-1.1\\mapbox-android-navigation-ui-0.41.0.aar\\8490743a9c9b468cfa9325ab20d0ccc7\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,180,256,315,391,458,524,588,647,712,773,816,860,917",
+                        "endColumns": "62,61,75,58,75,66,65,63,58,64,60,42,43,56,44",
+                        "endOffsets": "113,175,251,310,386,453,519,583,642,707,768,811,855,912,957"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,7,8,9,10,11,12,13,14,28,30,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "109,172,234,364,423,499,566,632,696,755,820,2240,2353,2397,2454",
+                        "endColumns": "62,61,75,58,75,66,65,63,58,64,60,42,43,56,44",
+                        "endOffsets": "167,229,305,418,494,561,627,691,750,815,876,2278,2392,2449,2494"
+                    }
+                }
+            ]
+        }
+    ]
+}
