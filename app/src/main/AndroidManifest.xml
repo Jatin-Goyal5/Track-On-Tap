@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.transportservise">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bus"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fetchData"></activity>
+        <activity android:name=".complain" />
+        <activity android:name=".emergency" />
+        <activity android:name=".contribute" />
+        <activity android:name=".trip" />
+        <activity android:name=".track" />
+        <activity android:name=".pollution" />
+        <activity android:name=".busroute" />
+        <activity android:name=".choice" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

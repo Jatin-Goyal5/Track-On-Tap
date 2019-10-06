@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mapboxGrayLight"
+    tools:context=".choice">
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="144dp"
+        android:layout_height="141dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/busroute" />
+
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="153dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pollutin" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="138dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tack" />
+
+    <Button
+        android:id="@+id/Button13"
+        android:layout_width="147dp"
+        android:layout_height="136dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/complain" />
+
+    <Button
+        android:id="@+id/Button14"
+        android:layout_width="144dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+
+        android:background="@drawable/emergency"
+        android:elevation="21dp" />
+
+    <Button
+        android:id="@+id/Button15"
+        android:layout_width="141dp"
+        android:layout_height="145dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/contribution" />
+
+
+
+</RelativeLayout>
