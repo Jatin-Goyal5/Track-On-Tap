@@ -1,30 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="#EB7F5D"
+    android:outlineAmbientShadowColor="#1E8D84"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="#EB7F5D"
+    android:padding="5dp"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="368dp"
-        app:srcCompat="@drawable/icon" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="48dp"
-        android:background="#c6d2e1"
-        android:text="Start Your Trip"
-        android:textSize="22dp"
-        android:textStyle="italic|bold"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:padding="20dp"
+            android:rowCount="2">
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:background="@drawable/round">
 
-</RelativeLayout>
+                <TextView
+                    android:layout_width="156dp"
+                    android:layout_height="match_parent"
+                    android:padding="45dp"
+                    android:text="Hello user!"
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:scaleType="fitEnd"
+                    android:id="@+id/user"
+                    android:background="#ECD0D9"
+                    android:padding="14dp"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/doctor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:columnOrderPreserved="true"
+                    android:rowCount="3">
+
+                    <ImageButton
+                        android:id="@+id/button1"
+                        android:layout_width="126dp"
+                        android:layout_height="119dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/busroute" />
+
+                    <ImageButton
+                        android:id="@+id/button2"
+                        android:layout_width="126dp"
+                        android:layout_height="119dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/trip"
+                        tools:ignore="GridLayout" />
+
+                    <ImageButton
+                        android:id="@+id/button3"
+                        android:layout_width="126dp"
+                        android:layout_height="119dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/tack" />
+
+                    <ImageButton
+                        android:id="@+id/button4"
+                        android:layout_width="126dp"
+                        android:layout_height="119dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/complain" />
+
+                    <ImageButton
+                        android:id="@+id/button5"
+                        android:layout_width="126dp"
+                        android:layout_height="119dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/contribution" />
+
+                    <ImageButton
+                        android:id="@+id/button6"
+                        android:layout_width="121dp"
+                        android:layout_height="119dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/round"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/emergency" />
+
+                </GridLayout>
+
+            </LinearLayout>
+
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
